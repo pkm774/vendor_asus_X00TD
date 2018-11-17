@@ -436,7 +436,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt \
     vendor/asus/X00T/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/asus/X00T/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
-    vendor/asus/X00T/proprietary/vendor/firmware/aw87339_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87339_kspk.bin \
     vendor/asus/X00T/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/asus/X00T/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
     vendor/asus/X00T/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
