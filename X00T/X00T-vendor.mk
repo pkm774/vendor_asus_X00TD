@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/asus/X00T/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
     vendor/asus/X00T/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libgatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgatekeeper.so \
     vendor/asus/X00T/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/asus/X00T/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
     vendor/asus/X00T/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
@@ -159,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/asus/X00T/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
     vendor/asus/X00T/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/asus/X00T/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
@@ -183,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/asus/X00T/proprietary/lib64/libdualcameraddm.so:system/lib64/libdualcameraddm.so \
     vendor/asus/X00T/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libgatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgatekeeper.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
     vendor/asus/X00T/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
@@ -1311,7 +1308,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/asus/X00T/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
     vendor/asus/X00T/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/asus/X00T/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/asus/X00T/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/asus/X00T/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/libtzplayready_customer.so \
     vendor/asus/X00T/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
