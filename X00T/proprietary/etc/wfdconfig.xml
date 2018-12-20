@@ -698,8 +698,7 @@
         To disable/enable audio stream playback
         support during power suspend - 0 or 1
     -->
-    <!--SW3-FC-WFD_AUDIO_IN_SUSPEND-->
-    <AudioStreamInSuspend>1</AudioStreamInSuspend>
+    <AudioStreamInSuspend>0</AudioStreamInSuspend>
 
     <!--
         Compensation delay for audio
