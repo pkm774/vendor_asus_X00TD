@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/asus/X00T/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/asus/X00T/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/asus/X00T/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/asus/X00T/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/asus/X00T/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/asus/X00T/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -1715,6 +1714,7 @@ PRODUCT_PACKAGES += \
     SmartcardService \
     TimeService \
     aptxui \
+    WfdCommon \
     com.qti.snapdragon.sdk.display \
     qcrilhook \
     vendor.qti.hardware.alarm-V1.0-java \
