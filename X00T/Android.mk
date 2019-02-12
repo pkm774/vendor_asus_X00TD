@@ -71,7 +71,6 @@ LOCAL_SRC_FILES := proprietary/app/CallFeaturesSetting/CallFeaturesSetting.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -82,7 +81,6 @@ LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -93,7 +91,6 @@ LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -104,7 +101,6 @@ LOCAL_SRC_FILES := proprietary/app/embms/embms.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -159,7 +155,6 @@ LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
@@ -216,18 +211,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := QFingerprintService
 LOCAL_MODULE_OWNER := asus
 LOCAL_SRC_FILES := proprietary/vendor/app/QFingerprintService/QFingerprintService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := SVIService
-LOCAL_MODULE_OWNER := asus
-LOCAL_SRC_FILES := proprietary/vendor/app/SVIService/SVIService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
