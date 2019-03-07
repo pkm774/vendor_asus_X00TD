@@ -6,5 +6,5 @@
 -->
 <permissions>
     <library name="vendor.qti.hardware.factory-V1.0"
-            file="/vendor/framework/vendor.qti.hardware.factory-V1.0-java.jar" />
+            file="/system/framework/vendor.qti.hardware.factory-V1.0-java.jar" />
 </permissions>
