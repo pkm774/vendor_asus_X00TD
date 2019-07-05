@@ -102,6 +102,16 @@
             Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="sdm455"
             Resources="0x40C5C000, 80" />
 
+    <!--Animation boost -->
+        <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- GPU MIN_FREQUENCY resource opcode,value-->
+        <Config
+            Id="0x00001083" Enable="true" Timeout="600" Target="sdm660"
+            Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 2208, 0x40800100, 1843, 0x4280C000, 588" />
+
     <!--Vertical Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
