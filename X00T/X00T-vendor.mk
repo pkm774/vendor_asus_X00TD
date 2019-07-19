@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/asus/X00T/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/asus/X00T/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
+    vendor/asus/X00T/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/asus/X00T/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/asus/X00T/proprietary/lib64/libsdsprpc_system.so:system/lib64/libsdsprpc_system.so \
     vendor/asus/X00T/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
@@ -363,6 +364,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_arcshdr_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_arcshdr_intf.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/asus/X00T/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
     vendor/asus/X00T/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/asus/X00T/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
@@ -1013,6 +1016,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/asus/X00T/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/asus/X00T/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
+    vendor/asus/X00T/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/asus/X00T/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/asus/X00T/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/asus/X00T/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
@@ -1147,6 +1151,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
+    vendor/asus/X00T/proprietary/vendor/lib64/libloc_externalDrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDrcore.so \
     vendor/asus/X00T/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/asus/X00T/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
     vendor/asus/X00T/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
