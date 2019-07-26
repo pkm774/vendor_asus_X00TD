@@ -339,6 +339,15 @@ CREATE TABLE qcril_emergency_source_nw_table(MCC TEXT, NUMBER TEXT, IMS_ADDRESS 
 CREATE TABLE qcril_emergency_source_escv_iin_table(IIN TEXT, NUMBER TEXT, ESCV INTEGER, ROAM TEXT, PRIMARY KEY(IIN,NUMBER,ROAM));
 CREATE TABLE qcril_emergency_source_escv_nw_table(MCC TEXT, MNC TEXT, NUMBER TEXT, ESCV INTEGER, PRIMARY KEY(MCC,NUMBER, ESCV));
 CREATE TABLE qcril_emergency_source_mcc_mnc_table(MCC TEXT, MNC TEXT, NUMBER TEXT, IMS_ADDRESS TEXT, SERVICE TEXT, PRIMARY KEY(MCC,NUMBER,MNC));
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','110','1');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','118','8');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','119','6');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','184110','1');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','184118','8');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','184119','6');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','186110','1');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','186118','8');
+INSERT INTO qcril_emergency_source_escv_nw_table VALUES('440','','186119','6');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('262','02','112','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('234','20','999','','');
 INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('234','20','112','','');
