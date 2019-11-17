@@ -115,13 +115,13 @@
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="sdm660" Resolution="1080p"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 900, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40"  />
 
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="sdm660" Resolution="2560"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
-                       0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 266"  />
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 900, 0x40C00000, 2,
+                       0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 160"  />
 
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="sdm658" Resolution="1080p"
@@ -163,12 +163,12 @@
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="sdm660" Resolution="1080p"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 900, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40"  />
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="sdm660" Resolution="2560"
-            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
-                       0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 266"  />
+            Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 900, 0x40C00000, 2,
+                       0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 160"  />
 
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="sdm658" Resolution="1080p"
@@ -215,7 +215,7 @@
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm660" Resolution="2560"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
-                       0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 266"  />
+                       0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 160"  />
 
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm658" Resolution="1080p"
