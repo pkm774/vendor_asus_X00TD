@@ -50,6 +50,7 @@ as anyway perflock calls of these resources would fail. -->
         <Config MajorValue="0x5" MinorValue="0xF" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0x10" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0x11" Supported="no" />
+        <Config MajorValue="0x5" MinorValue="0x13" Supported="no" /> <!-- rtg_boost_freq -->
 
         <!-- All the minors of LLCBW_HWMON MAJOR are not supported -->
         <Config MajorValue="0xC" MinorValue="0x0" Supported="no" />
