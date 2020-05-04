@@ -460,6 +460,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_default_video.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_default_video_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_eis_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_eis_video_bu64297.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_hdr_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_hdr_cpp.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_hdr_video_3a.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_hfr_120.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_hfr_120_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_hi1333_ofilm_13m_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi1333_ofilm_13m_hfr_60.so \
@@ -636,6 +639,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_default_video.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_default_video_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_eis_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_eis_video_bu64297.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_hdr_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_hdr_3a.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_hdr_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_hdr_cpp.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_hfr_120.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_hfr_120_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov13855_holitech_13m_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_holitech_13m_hfr_60.so \
@@ -696,6 +702,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_default_video.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_default_video_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_eis_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_eis_video_bu64297.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_hdr_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_hdr_3a.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_hdr_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_hdr_cpp.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_hfr_120.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_hfr_120_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_holitech_16m_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_holitech_16m_hfr_60.so \
@@ -723,6 +732,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_default_video.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_default_video_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_eis_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_eis_video_bu64297.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_hdr.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_hdr_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_hdr_3a.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_hdr_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_hdr_cpp.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_hfr_120.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_hfr_120_bu64297.so \
     vendor/asus/X00T/proprietary/vendor/lib/libchromatix_ov16885_ofilm_16m_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16885_ofilm_16m_hfr_60.so \
@@ -958,6 +970,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+    vendor/asus/X00T/proprietary/vendor/lib/libmorpho_video_refiner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_video_refiner.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/asus/X00T/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/asus/X00T/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
