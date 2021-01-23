@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add by AMT.meng.lv, 21/07/2020, for Add IceSoundSetModeService to set different icepower mode in different scenes -->
+
+<permissions>
+<library name="com.asus.IceSoundSetModeServiceLibrary"
+         file="/system/product/framework/IceSoundSetModeServiceLibrary.jar"/>
+</permissions>
