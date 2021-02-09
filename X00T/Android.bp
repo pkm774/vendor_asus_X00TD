@@ -136,6 +136,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ConnectionSecurityService",
+	owner: "asus",
+	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "asus",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
