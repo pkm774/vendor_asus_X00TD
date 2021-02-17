@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--
      DSI Module configuration XML file
      Copyright (c) 2013, 2015, 2017-2019 Qualcomm Technologies, Inc.
@@ -1163,7 +1164,7 @@
      <data name="single_qmux_channel_enabled" type="int"> 1 </data>
      <data name="single_qmux_channel_name" type="string"> rmnet0 </data>
 
-     <data name="num_dsi_handles" type="int"> 17 </data>
+     <data name="num_dsi_handles" type="int"> 11 </data>
      <list name="device_names">
        <data type="string"> rmnet_data0 </data>
        <data type="string"> rmnet_data1 </data>
@@ -1176,12 +1177,6 @@
        <data type="string"> rmnet_data8 </data>
        <data type="string"> rmnet_data9 </data>
        <data type="string"> rmnet_data10 </data>
-       <data type="string"> rmnet_data11 </data>
-       <data type="string"> rmnet_data12 </data>
-       <data type="string"> rmnet_data13 </data>
-       <data type="string"> rmnet_data14 </data>
-       <data type="string"> rmnet_data15 </data>
-       <data type="string"> rmnet_data16 </data>
      </list>
 
      <list name="control_port_names">
@@ -1196,12 +1191,6 @@
        <data type="string"> rmnet_data8 </data>
        <data type="string"> rmnet_data9 </data>
        <data type="string"> rmnet_data10 </data>
-       <data type="string"> rmnet_data11 </data>
-       <data type="string"> rmnet_data12 </data>
-       <data type="string"> rmnet_data13 </data>
-       <data type="string"> rmnet_data14 </data>
-       <data type="string"> rmnet_data15 </data>
-       <data type="string"> rmnet_data16 </data>
      </list>
    </listitem>
 </list>
