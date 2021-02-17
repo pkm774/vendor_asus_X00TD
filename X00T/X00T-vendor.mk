@@ -1523,6 +1523,8 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    HotwordEnrollmentOKGoogleHEMIDELTA \
+    HotwordEnrollmentXGoogleHEMIDELTA \
     WfdCommon \
     com.qti.snapdragon.sdk.display \
     vendor.qti.hardware.sensorscalibrate-V1.0-java \
