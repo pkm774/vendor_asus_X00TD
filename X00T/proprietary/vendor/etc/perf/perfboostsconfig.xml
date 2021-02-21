@@ -24,7 +24,7 @@
 
         <!-- Type="1", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="sdm660"
+            Id="0x00001081" Type="1" Enable="true" Timeout="3000" Target="sdm660"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF" />
 
@@ -208,27 +208,27 @@
 
         <!-- Type="4", Pre-Fling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm660" Resolution="1080p"
+            Id="0x00001080" Type="4" Enable="true" Timeout="150" Target="sdm660" Resolution="1080p"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40"  />
 
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm660" Resolution="2560"
+            Id="0x00001080" Type="4" Enable="true" Timeout="150" Target="sdm660" Resolution="2560"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 266"  />
 
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm658" Resolution="1080p"
+            Id="0x00001080" Type="4" Enable="true" Timeout="150" Target="sdm658" Resolution="1080p"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40"  />
 
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm658" Resolution="2560"
+            Id="0x00001080" Type="4" Enable="true" Timeout="150" Target="sdm658" Resolution="2560"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40, 0x4280C000, 266"  />
 
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm630"
+            Id="0x00001080" Type="4" Enable="true" Timeout="150" Target="sdm630"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2,
                        0x41400000, 1, 0x41418000, 1, 0x40C5C000, 40"  />
 
@@ -290,26 +290,6 @@
             Id="0x00001088" Enable="true" Target="sdm455"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000,0xFFF,
                        0x40800100,0xFFF" />
-
-        <!--Add by AMT.jun.xiong, 2019-10-17, for Improve performance for keyguard unlock from suspend begin begin -->
-        <!-- Type="1", keyguard unlock boost of 1sec -->
-        <Config
-            Id="0x00001094" Type="1" Enable="true" Timeout="1000" Target="sdm660"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
-        <Config
-            Id="0x00001094" Type="1" Enable="true" Timeout="1000" Target="sdm658"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
-        <Config
-            Id="0x00001094" Type="1" Enable="true" Timeout="1000" Target="sdm630"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
-        <Config
-            Id="0x00001094" Type="1" Enable="true" Timeout="1000" Target="sdm455"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
-        <!--Add by AMT.jun.xiong, 2019-10-17, for Improve performance for keyguard unlock from suspend end-->
 
     <!--Rotation latency boost-->
         <!-- SCHEDBOOST resource opcode, value-->
