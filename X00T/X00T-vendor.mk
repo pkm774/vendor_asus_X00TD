@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/etc/security/cacerts_wfa/ea93cb5b.0:$(TARGET_COPY_OUT_SYSTEM)/etc/security/cacerts_wfa/ea93cb5b.0 \
     vendor/asus/X00T/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
     vendor/asus/X00T/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
+    vendor/asus/X00T/proprietary/framework/QPerformance.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QPerformance.jar \
+    vendor/asus/X00T/proprietary/framework/UxPerformance.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/UxPerformance.jar \
     vendor/asus/X00T/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/X00T/proprietary/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
     vendor/asus/X00T/proprietary/lib/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmiracastsystem.so \
