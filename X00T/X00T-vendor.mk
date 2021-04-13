@@ -1763,35 +1763,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so
 
-# SnapCamera
-PRODUCT_COPY_FILES += \
-    vendor/asus/X00T/proprietary/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/app/CameraCalibration/lib/arm64/libarcsoft_single_chart_calibration.so \
-    vendor/asus/X00T/proprietary/lib64/libhqmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/app/CameraCalibration/lib/arm64/libhqmpbase.so \
-    vendor/asus/X00T/proprietary/lib64/libjni_hq_dualcam_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/app/CameraCalibration/lib/arm64/libjni_hq_dualcam_calibration.so \
-    vendor/asus/X00T/proprietary/etc/default-permissions/asus_snapcam-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/asus_snapcam-permissions.xml \
-    vendor/asus/X00T/proprietary/etc/permissions/com.qualcomm.qti.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.camera.xml \
-    vendor/asus/X00T/proprietary/etc/permissions/privapp-permissions-asus_snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-asus_snapcam.xml \
-    vendor/asus/X00T/proprietary/etc/sysconfig/asus_snapcam-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/asus_snapcam-hiddenapi-package-whitelist.xml \
-    vendor/asus/X00T/proprietary/framework/com.qualcomm.qti.camera.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.camera.jar \
-    vendor/asus/X00T/proprietary/lib/libjni_imageutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_imageutil.so \
-    vendor/asus/X00T/proprietary/lib/libjni_snapcammosaic.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_snapcammosaic.so \
-    vendor/asus/X00T/proprietary/lib/libjni_snapcamtinyplanet.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_snapcamtinyplanet.so \
-    vendor/asus/X00T/proprietary/lib/libscene-native-lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libscene-native-lib.so \
-    vendor/asus/X00T/proprietary/lib/libtensorflow_inference.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtensorflow_inference.so \
-    vendor/asus/X00T/proprietary/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
-    vendor/asus/X00T/proprietary/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_dualcam_refocus.so \
-    vendor/asus/X00T/proprietary/lib64/libarcsoft_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr.so \
-    vendor/asus/X00T/proprietary/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_single_chart_calibration.so \
-    vendor/asus/X00T/proprietary/lib64/libhqmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhqmpbase.so \
-    vendor/asus/X00T/proprietary/lib64/libjni_hq_dualcam_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_hq_dualcam_calibration.so \
-    vendor/asus/X00T/proprietary/lib64/libjni_imageutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_imageutil.so \
-    vendor/asus/X00T/proprietary/lib64/libjni_snapcammosaic.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_snapcammosaic.so \
-    vendor/asus/X00T/proprietary/lib64/libjni_snapcamtinyplanet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_snapcamtinyplanet.so \
-    vendor/asus/X00T/proprietary/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
-    vendor/asus/X00T/proprietary/lib64/libscene-native-lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libscene-native-lib.so \
-    vendor/asus/X00T/proprietary/lib64/libtensorflow_inference.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtensorflow_inference.so
-
-
 PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
@@ -1817,8 +1788,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEMIDELTA \
     HotwordEnrollmentXGoogleHEMIDELTA \
     WfdCommon \
-    CameraCalibration \
-    SnapdragonCamera \
     com.qti.snapdragon.sdk.display \
     vendor.qti.hardware.data.connection-V1.0-java \
     vendor.qti.hardware.data.connection-V1.1-java \
