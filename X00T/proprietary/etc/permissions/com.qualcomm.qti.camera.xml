@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ /* ====================================================================
+ * Copyright (c) 2014 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ * =====================================================================
+ * @file com.qualcomm.qti.camera.xml
+ *
+ */
+-->
+<permissions>
+
+    <library
+        name="com.qualcomm.qti.camera"
+        file="/system/framework/com.qualcomm.qti.camera.jar" />
+
+</permissions>
