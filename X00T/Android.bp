@@ -293,9 +293,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleHEMIDELTA",
+	name: "HotwordEnrollmentOKGoogleWCD9340",
 	owner: "asus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: true,
@@ -305,9 +305,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleHEMIDELTA",
+	name: "HotwordEnrollmentXGoogleWCD9340",
 	owner: "asus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: true,
