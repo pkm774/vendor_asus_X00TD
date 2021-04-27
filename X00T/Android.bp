@@ -324,6 +324,18 @@ android_app_import {
 }
 
 dex_import {
+	name: "QPerformance",
+	owner: "asus",
+	jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+	name: "UxPerformance",
+	owner: "asus",
+	jars: ["proprietary/framework/UxPerformance.jar"],
+}
+
+dex_import {
 	name: "WfdCommon",
 	owner: "asus",
 	jars: ["proprietary/framework/WfdCommon.jar"],
