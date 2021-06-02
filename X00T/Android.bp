@@ -300,9 +300,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleHEMIDELTA",
+	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "asus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: true,
@@ -312,9 +312,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleHEMIDELTA",
+	name: "HotwordEnrollmentXGoogleHEXAGON",
 	owner: "asus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: true,
