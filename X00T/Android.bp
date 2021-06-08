@@ -192,7 +192,7 @@ android_app_import {
 	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
 	certificate: "platform",
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	soc_specific: true,
 }
@@ -345,6 +345,13 @@ dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "asus",
 	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.fingerprint-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar"],
+	product_specific: true,
 }
 
 dex_import {
