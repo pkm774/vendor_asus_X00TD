@@ -37,6 +37,15 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	owner: "asus",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
+	sub_dir: "vintf/manifest",
+	filename_from_src: true,
+	soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "libantradio",
 	owner: "asus",
