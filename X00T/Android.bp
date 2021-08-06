@@ -329,6 +329,13 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.hardware.fingerprint-V1.0-java",
+	owner: "asus",
+	jars: ["proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar"],
+	product_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.hardware.data.connection-V1.0-java",
 	owner: "asus",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.data.connection-V1.0-java.jar"],
